@@ -1,0 +1,6 @@
+{
+  "name": "Sveston Watches | Luxury Men's Wrist Watches E-Commerce",
+  "description": "Premium e-commerce platform for men's luxury wrist watches featuring curated collections, advanced filtering, interactive multi-angle product gallery, and multi-gateway integrated checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

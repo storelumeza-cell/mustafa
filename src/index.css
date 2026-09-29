@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0c0d0e;
+    color: #f3f4f6;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Custom scrollbars for drawers and specs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #121316;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d34;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #40444f;
+}
